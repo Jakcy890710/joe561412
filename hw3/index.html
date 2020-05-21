@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" >
+		<title>10726302</title>
+		<link rel="stylesheet" type="text/css" href="css/long.css">
+	</head>
+	<body>
+
+		<div id="a">
+			<img id="pic1" src="images/01.jpg">
+			<div class="b">
+				<h1>彭楊龍 &nbsp;&nbsp;YangLong</h1>
+				<h5>中原大學-資訊管理系<br><br>「要做就要做到最好」<br>「自己選擇的路，跪著也要走完」</h5>
+				<a href="https://jakcy890710.github.io/joe561412.github.io/hw2/10726302.html"><img src="images/04.png" class="pic2"></a>
+				<a href="https://www.facebook.com/"><img src="images/02.png" class="pic2"></a>
+				<a href="https://www.instagram.com/"><img src="images/03.png" class="pic2"></a>
+			</div>
+			<hr/>
+		</div>
+
+		<h6>Education&Skills</h6>
+		<button class="education">大學(University)</button>
+		<div class="edu1">
+			<p>桃園市中原大學</p>
+		</div>
+		<button class="education">高中(High School)</button>
+		<div class="edu1">
+			<p>新竹市成德高中</p>
+		</div>
+		<button class="education">國中(Junior High School)</button>
+		<div class="edu1">
+			<p>新竹市成德國中</p>
+		</div>
+		<button class="education">國小(Elementary School)</button>
+		<div class="edu1">
+			<p>新竹市香山國小</p>
+		</div>
+
+		<div class="pie"><h5>介面設計</h5></div>
+		<div class="pie1"><h5>前端網頁</h5></div>
+		<div class="pie2"><h5>設計企劃</h5></div>
+		<div class="pie3"><h5>影片剪輯</h5></div>
+		<div class="skill">
+
+			<h4>Programming Skill</h4><br>
+			<div class="skill1">
+				<p>Html5</p>
+				<p>80%</p>
+				<div class="skill2">
+					<div class="skill3" style="width: 80%"></div>
+				</div>
+			</div>
+			<div class="skill1">
+				<p>CSS</p>
+				<p>75%</p>
+				<div class="skill2">
+					<div class="skill3" style="width: 75%"></div>
+				</div>
+			</div>
+			<div class="skill1">
+				<p>jQuery</p>
+				<p>60%</p>
+				<div class="skill2">
+					<div class="skill3" style="width: 60%"></div>
+				</div>
+			</div>
+			<div class="skill1">
+				<p>JAVA</p>
+				<p>60%</p>
+				<div class="skill2">
+					<div class="skill3" style="width: 60%"></div>
+				</div>
+			</div>
+			<div class="skill1">
+				<p>Teamwork</p>
+				<p>99%</p>
+				<div class="skill2">
+					<div class="skill3" style="width: 99%"></div>
+				</div>
+			</div>
+			
+			<div class="c">
+				<div class="d">
+					<h3>Experience</h3>
+					<img src="images/05.jpg" class="pic3">
+					<img src="images/06.jpg" class="pic4">
+					<img src="images/07.png" class="pic5">
+					<img src="images/08.png" class="pic6">
+					<div class="timeline">
+						<div class="time">
+							<div class="content">
+								<h2>大一上學期</h2>
+								<p><font size="5">管理學</font></p>
+								<p><font size="5">>>木匠的家義賣活動</font></p>
+							</div>
+						</div>
+						<div class="time">
+							<div class="content">
+								<h2>大一下學期</h2>
+								<p><font size="5">企業概論</font></p>
+								<p><font size="5">>>協助弱勢團體義賣蛋捲</font></p>
+							</div>
+						</div>
+						<div class="time">
+							<div class="content">
+								<h2>大二下學期</h2>
+								<p><font size="5">多媒體程式設計</font></p>
+								<p><font size="5">>>個人網頁</font></p>
+							</div>
+						</div>
+						<div class="time">
+							<div class="content">
+								<h2>大二下學期</h2>
+								<p><font size="5">多媒體程式設計</font></p>
+								<p><font size="5">>>期中專案&設計網頁前端</font></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="up">
+					<a href="#top"><img src="images/09.png" class="upp"></a>
+				</div>
+
+
+				<footer>
+				<p>Copyright © 2020 by YangLong</p>
+				</footer>
+
+					<script>
+					var acc = document.getElementsByClassName("education");
+					var i;
+					for (i = 0; i < acc.length; i++) {
+					acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+					panel.style.display = "none";
+					} else {
+					panel.style.display = "block";
+					}
+					});
+					}
+					</script>
+
+				</body>
+			</html>
